@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383b50"
+    tools:context="net.gulernet.app.nxfolder.UiClass.pindegistir">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/AnaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/PinSifreLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#323448"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+
+            <RadioGroup
+                android:id="@+id/sifreGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/PİN"
+                    android:theme="@android:style/Theme.Holo" />
+
+                <RadioButton
+                    android:id="@+id/sahtepin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FAKE_PIN"
+                    android:theme="@android:style/Theme.Holo" />
+
+
+
+            </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PİN"
+            android:textColor="#ecf0f1"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eskipinsifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/old_pin"
+            android:inputType="numberPassword"
+            android:theme="@android:style/Theme.Holo" />
+
+        <EditText
+            android:id="@+id/pinsifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/new_pin"
+            android:inputType="numberPassword"
+            android:theme="@android:style/Theme.Holo" />
+
+        <EditText
+            android:id="@+id/pinsifretekrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/new_pin_again"
+            android:inputType="numberPassword"
+            android:theme="@android:style/Theme.Holo" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/degistiriptal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/degistir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:text="@string/change" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

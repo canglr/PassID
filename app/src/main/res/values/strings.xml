@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Pass ID</string>
+
+    <string name="title_activity_kontrolislemleri">kontrolislemleri</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="font_awesome_ice_aktar">&#xf03e;</string>
+    <string name="font_awesome_yenile">&#xf021;</string>
+    <string name="font_awesome_yeni_klasor">&#xf07b;</string>
+    <string name="font_awesome_klasor_duzenle">&#xf044;</string>
+    <string name="font_awesome_klasor_sil">&#xf1f8;</string>
+    <string name="font_awesome_dosya_sayisi">&#xf249;</string>
+    <string name="font_awesome_mail">&#xf0e0;</string>
+
+    <string-array name="menu">
+        <item>@string/Account</item>
+        <item>@string/finger_print</item>
+        <item>@string/Feedback</item>
+    </string-array>
+
+    <string-array name="hesapmenu">
+        <item>@string/change_pin</item>
+        <item>@string/Sign_out_from_devices</item>
+        <item>@string/Log_out</item>
+    </string-array>
+
+    <string name="safe">SAFE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="secure_log_out">Secure log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="select_file">Select File</string>
+    <string name="create_a_folder">Create A Folder</string>
+    <string name="at_least_one_folder">At least one folder must be created to transfer files.</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_folder">New Folder</string>
+    <string name="folder_could_not_be_created">Folder could not be created</string>
+    <string name="folder_with_same_name_exists">Folder could not be created</string>
+    <string name="rename">Rename</string>
+    <string name="can_not_rename_folder">Can not Rename Folder.</string>
+    <string name="folder_not_selected">Folder Not Selected</string>
+    <string name="the_folder_must_be_selected">The folder must be selected in order to continue the editing process.</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="are_you_sure_you_want_to_delete_it">Are you sure you want to delete it?</string>
+    <string name="the_folder_must_be_selected_deletion">The folder must be selected in order to continue deletion.</string>
+    <string name="options">Options</string>
+    <string name="open">Open</string>
+    <string name="open_differently">Open Differently</string>
+    <string name="export">Export</string>
+    <string name="delete">Delete</string>
+    <string name="can_not_rename_file">Can not Rename File</string>
+    <string name="file_with_the_same_name_exists">File with the same name exists</string>
+    <string name="deleted">deleted</string>
+    <string name="processing">Processing</string>
+    <string name="extracting_file">Extracting File...</string>
+    <string name="he_was_transferred">He was transferred</string>
+    <string name="opening_file">Opening File...</string>
+    <string name="preparing_the_list">Preparing the list...</string>
+    <string name="the_file_could_not_be_found">The file could not be found</string>
+    <string name="change_pin">Change Pin</string>
+    <string name="finger_print">Fingerprint</string>
+    <string name="must_be_at_least_4_characters">Must be at least 4 characters!</string>
+    <string name="pin_fields_do_not_match">Pin fields do not match!</string>
+    <string name="fake_pin_fields_do_not_match">Fake pin fields do not match!</string>
+    <string name="pin_and_fake_pin_can_not_be_the_same">Pin and fake pin can not be the same!</string>
+    <string name="PİN">PIN</string>
+    <string name="pin">Pin</string>
+    <string name="pin_again">Pin Again</string>
+    <string name="FAKE_PIN">FAKE PIN</string>
+    <string name="next">next</string>
+    <string name="old_pin">Old Pin</string>
+    <string name="new_pin">New Pin</string>
+    <string name="new_pin_again">New Pin Again</string>
+    <string name="change">Change</string>
+    <string name="old_pin_wrong">Old Pin Wrong!</string>
+    <string name="invalid_email_address">Invalid email address!</string>
+    <string name="your_email_account_does_not">Your email account does not belong to you.</string>
+    <string name="code_available">code available</string>
+    <string name="send_code">send code</string>
+    <string name="verification_code">VERIFICATION CODE</string>
+    <string name="code">Code</string>
+    <string name="E_MAIL_ADDRESS">RECOVERY E-MAIL ADDRESS</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="FORGOT_THE_PIN">FORGOT THE PIN ?</string>
+    <string name="The_pin_is_faulty">The pin is faulty!</string>
+    <string name="Application_failed_to_initialize">Application failed to initialize</string>
+    <string name="The_application_failed_to_start">The application failed to start because the necessary permissions were not granted.</string>
+    <string name="Your_fingerprint_was_not_recognized">Your fingerprint was not recognized.</string>
+    <string name="information">Information</string>
+    <string name="Please_provide_the_necessary_permissions">Please provide the necessary permissions for the operation of the application.</string>
+    <string name="Check_your_mail_box">Check your mail box.</string>
+    <string name="There_was_a_problem_sending_the_code">There was a problem sending the code.</string>
+    <string name="Could_not_establish_a_connection_with_the_server">Could not establish a connection with the server.</string>
+    <string name="The_code_is_invalid">The code is invalid.</string>
+    <string name="Please_update_the_application">Please update the application.</string>
+    <string name="Exceeds_the_80_MB_limit">Exceeds the 80 MB limit!</string>
+    <string name="Transferring_Files">Transferring Files</string>
+    <string name="Transfer_Complete">Transfer Complete</string>
+    <string name="Please_do_not_share_with_anyone">Please do not share with anyone</string>
+    <string name="Security">Security</string>
+    <string name="The_session_expired_sign_in_again">The session expired. Sign in again.</string>
+    <string name="Sign_out_from_devices">Sign out from devices</string>
+    <string name="Log_out">Log out</string>
+    <string name="Account">Account</string>
+    <string name="fingerprint_and_pin">Fingerprint and Pin</string>
+    <string name="Approved">Approved</string>
+    <string name="Confirm_with_fingerprint">Confirm with fingerprint.</string>
+    <string name="File_type_not_supported">File type not supported</string>
+    <string name="Try_different_Open">Try different Open.</string>
+    <string name="Exceeds_the_768_MB_limit">Exceeds the 768 MB limit!</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Submit">Submit</string>
+    <string name="we_thank_you">we thank you.</string>
+    <string name="your_daily_limit_is_over">your daily limit is over.</string>
+    <string name="your_message_must_be_at_least_8_characters_and_at_most_500_characters">your message must be at least 8 characters and at most 500 characters.</string>
+    <string name="hold_down_to_screen">hold down to screen</string>
+    <string name="bring_my_mail_address_automatically">bring my mail address automatically?</string>
+    <string name="request_permission">request permission</string>
+    <string name="please_enter_your_email_address">please enter your e-mail address.</string>
+    <string name="GOOGLE">GOOGLE ACCOUNT</string>
+    <string name="OTHER">OTHER</string>
+</resources>

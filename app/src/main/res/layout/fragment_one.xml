@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/font_awesome_ice_aktar" />
+
+        <Button
+            android:id="@+id/yenile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/font_awesome_yenile" />
+
+        <Button
+            android:id="@+id/yeniklasor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/font_awesome_yeni_klasor" />
+
+        <Button
+            android:id="@+id/klasorduzenle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/font_awesome_klasor_duzenle" />
+
+        <Button
+            android:id="@+id/klasorsil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/font_awesome_klasor_sil" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/klasorlistesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/yazi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/ZipListe"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:dividerHeight="5dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

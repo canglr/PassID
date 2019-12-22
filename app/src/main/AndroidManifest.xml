@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.gulernet.app.nxfolder">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UiClass.AcilisEkrani"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UiClass.kontrolislemleri" />
+        <activity android:name=".UiClass.hosgeldiniz" />
+        <activity android:name=".UiClass.pingiris"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".UiClass.sahtepin" />
+        <activity android:name=".UiClass.yeniguncelleme" />
+        <activity android:name=".UiClass.pindegistir" />
+
+        <service
+            android:name=".ServiceClass.KilitKontrolSistemi"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".ServiceClass.OturumKontrol"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".ServiceClass.Dosyaaktar"
+            android:exported="false"
+            android:process=":dosyaaktar" />
+        <service
+            android:name=".ServiceClass.ThumbnailKontrol"
+            android:exported="false"
+            android:process=":ThumbnailKontrol" />
+
+        <service
+            android:name=".ServiceClass.SikistirmaKontrol"
+            android:process=":SikistirmaKontrol"
+            android:exported="false" />
+
+        <activity android:name=".UiClass.video_play" />
+        <activity android:name=".UiClass.image_play" />
+        <activity android:name=".UiClass.kullanicikontrol" />
+        <activity android:name=".UiClass.kullanicidogrulama" />
+        <activity android:name=".UiClass.Hesap" />
+        <activity android:name=".UiClass.Parmakizi" />
+        <activity android:name=".UiClass.geribildirim" />
+        <activity android:name=".UiClass.MainActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>

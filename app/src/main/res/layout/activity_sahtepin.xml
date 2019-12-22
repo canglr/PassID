@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383b50"
+    tools:context="net.gulernet.app.nxfolder.UiClass.sahtepin">
+
+    <LinearLayout
+        android:id="@+id/AnaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/AnaSifreLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#323448"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_code"
+        android:textColor="#ecf0f1"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dogrulamakodu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ecf0f1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bilgilendirme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:text="@string/Please_do_not_share_with_anyone"
+            android:textColor="#ecf0f1"
+             />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

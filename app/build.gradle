@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "net.gulernet.PassID"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 7
+        versionName "1.0.6"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+                onesignal_app_id               : '1ebe4cb1-6f0e-4e56-94e8-1a57f138534c',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+
+    buildTypes.each {
+        it.buildConfigField 'String', 'Yandex_Metrica_Api', Yandex_Metrica_Api
+        it.buildConfigField 'String', 'Encryption_Key', Encryption_Key
+        it.buildConfigField 'String', 'Encryption_Iv', Encryption_Iv
+    }
+
+}
+
+
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.8.1'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.nabinbhandari.android:permissions:3.5'
+    implementation 'com.multidots:fingerprint-auth:1.0.1'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.9.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.yandex.android:mobmetricalib:2.80'
+    implementation 'com.iceteck.silicompressorr:silicompressor:2.1'
+    implementation 'com.mani:ThinDownloadManager:1.4.0'
+    implementation 'com.github.nisrulz:easydeviceinfo-base:2.4.1'
+    implementation 'com.onesignal:OneSignal:[3.8.3, 3.99.99]'
+    implementation 'com.google.android.gms:play-services-ads:15.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pass ID</string>
+
+    <string name="title_activity_kontrolislemleri">kontrolislemleri</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="font_awesome_ice_aktar">&#xf03e;</string>
+    <string name="font_awesome_yenile">&#xf021;</string>
+    <string name="font_awesome_yeni_klasor">&#xf07b;</string>
+    <string name="font_awesome_klasor_duzenle">&#xf044;</string>
+    <string name="font_awesome_klasor_sil">&#xf1f8;</string>
+    <string name="font_awesome_dosya_sayisi">&#xf249;</string>
+    <string name="font_awesome_mail">&#xf0e0;</string>
+
+    <string-array name="menu">
+        <item>@string/Account</item>
+        <item>@string/finger_print</item>
+        <item>@string/Feedback</item>
+    </string-array>
+
+    <string-array name="hesapmenu">
+        <item>@string/change_pin</item>
+        <item>@string/Sign_out_from_devices</item>
+        <item>@string/Log_out</item>
+    </string-array>
+
+    <string name="safe">KASA</string>
+    <string name="settings">AYARLAR</string>
+    <string name="secure_log_out">Uygulamadan güvenli çıkış yap ?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="exit">Çıkış</string>
+    <string name="select_file">Dosya Seç</string>
+    <string name="create_a_folder">Klasör Oluşturunuz</string>
+    <string name="at_least_one_folder">Dosya aktarabilmek için en az bir klasör oluşturulmalıdır.</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="new_folder">Yeni Klasör</string>
+    <string name="folder_could_not_be_created">Klasör Oluşturulamadı</string>
+    <string name="folder_with_same_name_exists">Aynı ada sahip bir klasör var</string>
+    <string name="rename">Yeniden Adlandır</string>
+    <string name="can_not_rename_folder">Klasör Yeniden Adlandırılamıyor</string>
+    <string name="folder_not_selected">Klasör Seçilmedi</string>
+    <string name="the_folder_must_be_selected">Düzenleme işlemine devam edebilmek için klasör seçilmelidir.</string>
+    <string name="confirmation">Onay</string>
+    <string name="are_you_sure_you_want_to_delete_it">Silmek istediğinizden emin misiniz?</string>
+    <string name="the_folder_must_be_selected_deletion">Silme işlemine devam etmek için klasör seçilmelidir.</string>
+    <string name="options">Seçenekler</string>
+    <string name="open">Aç</string>
+    <string name="open_differently">Farklı Aç</string>
+    <string name="export">Dışarı Aktar</string>
+    <string name="delete">Sil</string>
+    <string name="can_not_rename_file">Dosya Yeniden Adlandırılamıyor</string>
+    <string name="file_with_the_same_name_exists">Aynı ada sahip dosya var</string>
+    <string name="deleted">silindi</string>
+    <string name="processing">İşleniyor</string>
+    <string name="extracting_file">Dosya Dışarı Çıkarılıyor...</string>
+    <string name="he_was_transferred">klasörüne çıkarıldı</string>
+    <string name="opening_file">Dosya Açılıyor...</string>
+    <string name="preparing_the_list">Listeleniyor...</string>
+    <string name="the_file_could_not_be_found">Listelenebilecek dosya bulunamadı</string>
+    <string name="change_pin">Pin Değiştir</string>
+    <string name="finger_print">Parmak İzi</string>
+    <string name="must_be_at_least_4_characters">En az 4 karakter olmalıdır!</string>
+    <string name="pin_fields_do_not_match">Pin alanları uyuşmuyor!</string>
+    <string name="fake_pin_fields_do_not_match">Sahte pin alanları uyuşmuyor!</string>
+    <string name="pin_and_fake_pin_can_not_be_the_same">Pin ile sahte pin aynı olamaz!</string>
+    <string name="PİN">PİN</string>
+    <string name="pin">Pin</string>
+    <string name="pin_again">Pin Tekrar</string>
+    <string name="FAKE_PIN">SAHTE PİN</string>
+    <string name="next">ileri</string>
+    <string name="old_pin">Eski Pin</string>
+    <string name="new_pin">Yeni Pin</string>
+    <string name="new_pin_again">Yeni Pin Tekrar</string>
+    <string name="change">Değiştir</string>
+    <string name="old_pin_wrong">Eski Pin Yanlış!</string>
+    <string name="invalid_email_address">Geçersiz mail adresi!</string>
+    <string name="your_email_account_does_not">Girdiğiniz mail hesabınıza ait değildir.</string>
+    <string name="code_available">kod mevcut</string>
+    <string name="send_code">kod gönder</string>
+    <string name="verification_code">DOĞRULAMA KODU</string>
+    <string name="code">Kod</string>
+    <string name="E_MAIL_ADDRESS">KURTARMA E-MAİL ADRESİ</string>
+    <string name="e_mail">Mail</string>
+    <string name="FORGOT_THE_PIN">PİNİ UNUTTUM ?</string>
+    <string name="The_pin_is_faulty">Pin hatalı!</string>
+    <string name="Application_failed_to_initialize">Uygulama başlatılamadı</string>
+    <string name="The_application_failed_to_start">Gerekli izinler verilmediğinden uygulama başlatılamadı.</string>
+    <string name="Your_fingerprint_was_not_recognized">Parmak iziniz tanınmadı.</string>
+    <string name="information">Bilgilendirme</string>
+    <string name="Please_provide_the_necessary_permissions">Uygulamanın çalışması için lütfen gerekli izinleri veriniz.</string>
+    <string name="Check_your_mail_box">Mail kutunuzu kontrol ediniz.</string>
+    <string name="There_was_a_problem_sending_the_code">Kod gönderilirken sorun oluştu.</string>
+    <string name="Could_not_establish_a_connection_with_the_server">Sunucuyla bağlantı kurulamadı.</string>
+    <string name="The_code_is_invalid">Kod geçersiz.</string>
+    <string name="Please_update_the_application">Lütfen uygulamayı güncelleyiniz.</string>
+    <string name="Exceeds_the_80_MB_limit">80 MB sınırını aştığı için aktarılamadı!</string>
+    <string name="Transferring_Files">Dosyalar Aktarılıyor</string>
+    <string name="Transfer_Complete">Aktarım Tamamlandı</string>
+    <string name="Please_do_not_share_with_anyone">3. Şahıslarla paylaşmayınız.</string>
+    <string name="Security">Güvenlik</string>
+    <string name="The_session_expired_sign_in_again">Oturum süresi doldu. Yeniden oturum açın.</string>
+    <string name="Sign_out_from_devices">Cihazlardan çıkış yap</string>
+    <string name="Log_out">Çıkış yap</string>
+    <string name="Account">Hesap</string>
+    <string name="fingerprint_and_pin">Parmak izi ve Pin</string>
+    <string name="Approved">Onaylandı</string>
+    <string name="Confirm_with_fingerprint">Parmak izi ile onaylayın.</string>
+    <string name="File_type_not_supported">Dosya türü desteklenmiyor</string>
+    <string name="Try_different_Open">Farklı Aç seçeneğini deneyiniz.</string>
+    <string name="Exceeds_the_768_MB_limit">768 MB sınırını aştığı için aktarılamadı!</string>
+    <string name="Feedback">Geri bildirim</string>
+    <string name="Submit">Gönder</string>
+    <string name="we_thank_you">teşekkür ederiz.</string>
+    <string name="your_daily_limit_is_over">günlük limitiniz bitti.</string>
+    <string name="your_message_must_be_at_least_8_characters_and_at_most_500_characters">mesajınız en az 8 karakter ve en fazla 500 karakter olmalıdır.</string>
+    <string name="hold_down_to_screen">ekrana basılı tutun</string>
+    <string name="bring_my_mail_address_automatically">mail adresimi otomatik olarak getir?</string>
+    <string name="request_permission">izin isteği</string>
+    <string name="please_enter_your_email_address">lütfen e-mail adresinizi giriniz.</string>
+    <string name="GOOGLE">GOOGLE HESABI</string>
+    <string name="OTHER">DİĞER</string>
+</resources>
